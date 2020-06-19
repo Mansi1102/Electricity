@@ -1,0 +1,44 @@
+Create database user;
+
+
+
+CREATE TABLE login(
+username VARCHAR(25),
+password VARCHAR(15),
+email varchar(20)
+);
+
+
+
+CREATE TABLE emp(
+name varchar(15),
+meter_number varchar(10),
+address  varchar(15),
+state  varchar(15),
+city varchar(15),
+email varchar(15),
+phone varchar(10)
+);
+
+
+
+CREATE TABLE bill(
+meter_number  VARCHAR(10),
+month  varchar(20),
+units  varchar(5),
+amount varchar(15)
+);
+
+
+
+create table tax(
+meter_location varchar(10),
+meter_type varchar(15),
+phase_code  varchar(5),
+bill_type varchar(10),
+days  varchar(5),
+meter_rent varchar(5),
+mcb_rent varchar(5),
+service_rent varchar(5),
+gst varchar(5)
+);
